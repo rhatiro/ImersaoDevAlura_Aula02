@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Imersão Dev Alura - Aula 02 - Conversor de moedas, distâncias e temperaturas</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    <p class="page-subtitle">
+      Descubra os valores em dolar U$
+    </p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+      class="page-logo" alt=""><br><br>
+    <label for="valor">Insira o valor em reais:</label><br>
+    <input type="number" id="valor" size="10" /><br>
+    <button type="submit" onclick="Converter()">Converter</button>
+    <h2 id="realParaDolar"></h2>
+    <h2 id="realParaEuro"></h2>
+    <h2 id="realParaBtc"></h2>
+  </div>
+
+  <hr>
+
+  <div class="conversorTempo" style="margin-top: 30px;">
+    <h1 class="page-title">
+      Tempo de duração para viajar entre estrelas distintas
+    </h1>
+    <p class="page-subtitle">
+      Descubra quantos anos demora para viajar na velocidade da luz entre diferentes estrelas, baseando-se na distância
+      em quilômetros.
+    </p>
+    <label for="km">Insira a quilometragem:</label><br>
+    <input id="km" type="number" size="15">
+    <button type="submit" onclick="viajar()">Descubra</button>
+    <h2 id="resultado"></h2>
+  </div>
+
+  <hr>
+
+  <div class="conversorTemperatura" style="margin-top: 30px;">
+    <h1 class="page-title">
+      Conversor de temperaturas
+    </h1>
+    <p class="page-subtitle">
+      Converta as temperaturas entre farenheit, kelvin e celcius.
+    </p>
+    <div class="containerTemp">
+      <div class="temperaturas">
+        <label for="f">Farenheit</label>
+        <input id="f" type="number" placeholder="Farenheit">
+        <br>
+        <label for="k">Kelvin</label>
+        <input id="k" type="number" placeholder="Kelvin">
+        <br>
+        <label for="c">Celcius</label>
+        <input id="c" type="number" placeholder="Celcius">
+      </div>
+    </div>
+
+  </div>
+
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
