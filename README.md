@@ -1,8 +1,13 @@
-Imersão Dev Alura - Aula 02 - Conversor de moedas, distâncias e temperaturas
-----------------------------------------------------------------------------
+# Conversor de moedas, distâncias e temperaturas
+
+### Screenshot
+
+![Screenshot](screenshot.png)
+
 https://imersao.dev/aulas/aula02-conversor-moedas
 
-Desafios desta aula!
+### Desafios desta aula!
+
 - Adicionar outras moedas para converter;
 - Conversor de quilômetros para anos luz e verificar o tempo que demora para ir de uma estrela para outra;
 - Conversor de temperaturas entre farenheit, kelvin e celcius;
